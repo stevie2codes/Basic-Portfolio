@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+    
+}
+
+header {
+    border: 1px solid black;  
+    padding: -10px;
+}
+#name {
+    background-color: #4aaaa5;
+    width:17%;
+    margin: 0 0;
+}
+ul {
+    margin-left: 800px;
+    border: 1px solid black;
+    
+}
+li {
+    display: inline-block;
+    padding: 15px;   
+    
+}
+
+img {
+    width: 150px;
+}
+footer {
+    border: 1px solid black;
+}
