@@ -76,7 +76,6 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
-
 img {
     width: 200px;
     box-shadow: #666666 2px 2px 10px;
@@ -119,6 +118,10 @@ h2 {
     line-height: 30px;
     
 }
+
+
+
+
 
 
 
