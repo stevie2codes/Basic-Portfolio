@@ -102,7 +102,7 @@ img {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 15px; 
+    margin-left: 20px; 
     color: #4aaaa5;
     font-size: 1.7rem;
     margin: 10px 37px;
@@ -116,8 +116,44 @@ h2 {
     position: absolute;
     margin: 0px;
     padding: 20px;   
-    line-height: 30px;
-    
+    line-height: 30px;   
+}
+
+input[type=text],
+select,
+textarea {
+    display: block;
+    width: 91%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    border: 1px solid #cccccc;
+}
+
+#submit {
+    margin-left: 35px;
+    background-color: #4aaaa5;
+    padding:5px 18px 5px 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-shadow: #666666 1px 1px 10px;
+}
+
+#submit:hover {
+    background-color:teal;
+}
+
+#message {
+    height: 120px;
+}
+
+label {
+    margin: 10px 0px 10px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #777777;
 }
 
 

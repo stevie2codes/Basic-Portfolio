@@ -25,14 +25,19 @@
     </header>
     <div id="wrapper">
             <section id="main">
-                <h2>About Me</h2>
-                <img src="/assests/images/port_photo.JPG" alt="Profile Picture">
-                <p class="about">Hi! My name is Stephen Webb. I am an aspiring full stack developer. 
-                    I believe you can solve any problem with hard work and perseverance.
-                    In my spare time I enjoy training for my next race and spending time with my family.
-                    I've been studying web development for 4 months and have just joined a 6 month full-stack 
-                    web development course. 
-                </p>
+                <h2>Contact</h2>
+              <div class="form_container">
+                  <form action="/action_page.php">
+                    <label for="fname">Name</label>
+                <input type="text" name="firstname" id="fname" placeholder="John Smith">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Example@gmail.com">
+                <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Send me a message.."></textarea>
+
+    <input type="submit" value="Submit" id="submit">  
+                </form>
+              </div>  
                      
              </section>
              </div>
