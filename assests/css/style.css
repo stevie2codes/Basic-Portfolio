@@ -18,6 +18,7 @@ header {
 
 
 .name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
     background-color:#4aaaa5;
     margin-left: 32px;
@@ -57,6 +58,8 @@ nav a {
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 13px;
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
 }
 
 nav a:hover {
@@ -81,11 +84,15 @@ nav a:hover::before {
 }
 
 img {
-    width: 200px;
-    box-shadow: #666666 2px 2px 10px;
-    border-radius: 3px;
-    margin: 5px 0px 0px 40px;
+    float:left;
+    width: 220px;
+    position: relative;
+    box-shadow: #666666 4px 0px 10px;
+    border-radius: 50%;
+    margin: 5px 0px 0px 40px; 
 }
+
+
 #wrapper {
     min-height: 100%;
 }
@@ -98,7 +105,7 @@ img {
     border: 1px solid #dddddd;
     background-color: #ffffff;
     border-radius: 3px;
-   position: relative;
+    position: relative;
 }
 
 
@@ -118,12 +125,17 @@ h2 {
 }
 
 .about {
-    font-size: 1.3rem;
     display: inline;
+    right: 100px;
+    left: 300px;
+    
     position: absolute;
+    
+    font-size: 1.3rem;
     margin: 0px;
     padding: 20px;   
     line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 

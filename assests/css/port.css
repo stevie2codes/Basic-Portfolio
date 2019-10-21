@@ -27,7 +27,7 @@ header {
     padding: 20px;
     box-shadow: #666666 0 0 4px;
     border-radius: 3px;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header::after {
     content: ''; 
@@ -58,6 +58,8 @@ nav a {
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 13px;
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
 }
 
 nav a:hover {

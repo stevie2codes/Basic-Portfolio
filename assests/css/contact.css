@@ -16,8 +16,8 @@ header {
     border-bottom: 3px solid #cccccc;
 }
 
-
 .name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
     background-color:#4aaaa5;
     margin-left: 32px;
@@ -57,6 +57,9 @@ nav a {
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 13px;
+    border-right: 1px solid #cccccc;
+    padding-right: 10px;
+    
 }
 
 nav a:hover {
