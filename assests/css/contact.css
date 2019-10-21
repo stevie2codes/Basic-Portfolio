@@ -96,10 +96,14 @@ nav a:hover::before {
 }
 
 h2 {
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif; 
-    color: #4aaaa5;
-    font-size: 1.2rem;
+    background-clip: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px; 
+    background: -webkit-linear-gradient(#4882B8, #4CC29A, #48B873);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    letter-spacing: 2px;
     margin: 10px 37px;
     padding: 20px;
     border-bottom: 2px solid #cccccc;

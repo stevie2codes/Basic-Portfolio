@@ -103,8 +103,7 @@ img {
     border: 1px solid #dddddd;
     background-color: #ffffff;
     border-radius: 3px;
-    position: relative;  
-    
+    position: relative;     
 }
 
 .container_1 {
@@ -135,7 +134,9 @@ img {
     bottom: 10px;
     left: 40px;
     padding-left:65px;
-    padding-right: 65px; 
+    padding-right: 60px; 
+    border-radius: 3px;
+    opacity: .9;
 }
 
 .text-block_1 {
@@ -145,7 +146,9 @@ img {
     bottom: 10px;
     left: 280px;
     padding-left:65px;
-    padding-right: 53px;
+    padding-right: 48px;
+    border-radius: 3px;
+    opacity: .9;
 }
 
 .text-block_2 {
@@ -154,10 +157,10 @@ img {
     color: white;
     bottom: 10px;
     left: 40px;
-    padding-left: 33px;
+    padding-left: 65px;
     padding-right: 33px; 
-    
-
+    border-radius: 3px;
+    opacity: .9;
 }
 
 .text-block_3 {
@@ -167,7 +170,9 @@ img {
     bottom: 10px;
     left: 280px;
     padding-left:60px;
-    padding-right: 60px;    
+    padding-right: 55px;   
+    border-radius: 3px; 
+    opacity: .9;
 }
 .text-block_4 {
     position: absolute;
@@ -175,16 +180,22 @@ img {
     color: white;
     bottom: 10px;
     left: 40px;
-    padding-left: 36px;
-    padding-right: 35px; 
+    padding-left: 28px;
+    padding-right: 30px; 
+    border-radius: 3px;
+    opacity: 0.9;
 }
 
 
 h2 {
+    background-clip: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 15px; 
-    color: #4aaaa5;
-    font-size: 1.2rem;
+    background: -webkit-linear-gradient(#4882B8, #4CC29A, #48B873);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    letter-spacing: 2px;
     margin: 10px 37px;
     padding: 20px;
     border-bottom: 2px solid #cccccc;
@@ -194,6 +205,7 @@ h4 {
     font-size: 14px;
     margin: 10px auto;
     padding-right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
