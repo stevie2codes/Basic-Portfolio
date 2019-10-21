@@ -80,7 +80,7 @@ img {
     width: 200px;
     box-shadow: #666666 2px 2px 10px;
     border-radius: 3px;
-    margin: 5px 0px 0px 40px;
+    margin: 5px 0px 0px 40px;   
 }
 #wrapper {
     min-height: 100%;
@@ -89,12 +89,12 @@ img {
 #main {
     box-shadow: #666666 2px 2px 10px;
     width: 960px;
-    height: 480px;
+    height: 500x;
     margin: 30px auto;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     border-radius: 3px;
-   position: relative;
+   position: relative;  
 }
 
 
@@ -103,27 +103,11 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 15px; 
     color: #4aaaa5;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     margin: 10px 37px;
     padding: 20px;
     border-bottom: 2px solid #cccccc;
 }
-
-.about {
-    font-size: 1.3rem;
-    display: inline;
-    position: absolute;
-    margin: 0px;
-    padding: 20px;   
-    line-height: 30px;
-    
-}
-
-
-
-
-
-
 
 
 footer {
