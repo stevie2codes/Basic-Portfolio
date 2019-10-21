@@ -25,6 +25,8 @@ header {
     margin-bottom: 0px;
     margin-top: 0px;
     padding: 20px;
+    box-shadow: #666666 0 0 4px;
+    border-radius: 3px;
 }
 header::after {
     content: '';
@@ -88,7 +90,7 @@ img {
 }
 
 #main {
-    box-shadow: #666666 2px 2px 10px;
+    box-shadow: #aaa8a8 0px 0px 10px;
     width: 960px;
     height: 480px;
     margin: 30px auto;
