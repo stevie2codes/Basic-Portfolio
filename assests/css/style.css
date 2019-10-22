@@ -16,7 +16,6 @@ header {
     border-bottom: 3px solid #cccccc;
 }
 
-
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
@@ -47,7 +46,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 30px;
     padding-top: 30px;
     position: relative;
 }
@@ -85,11 +84,11 @@ nav a:hover::before {
 
 img {
     float:left;
-    width: 220px;
+    width: 250px;
     position: relative;
     box-shadow: #666666 4px 0px 10px;
     border-radius: 50%;
-    margin: 5px 0px 0px 40px; 
+    margin: 25px 0px 0px 40px; 
 }
 
 

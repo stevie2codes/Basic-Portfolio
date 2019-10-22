@@ -12,6 +12,7 @@ html,body {
 }
 
 header {
+    width: 100%;
     background-color: #ffffff;
     border-bottom: 3px solid #cccccc;
 }
@@ -46,7 +47,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 30px;
     padding-top: 30px;
     position: relative;
 }
