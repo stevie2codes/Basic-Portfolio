@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/assets/images/email-pattern.png);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 3px solid #cccccc;
+}
+
+.name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  float: left;
+  background-color: #4aaaa5;
+  margin-left: 32px;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 20px;
+  box-shadow: #666666 0 0 4px;
+  border-radius: 3px;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 30px;
+  position: relative;
+}
+
+nav a {
+  color: #777777;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  border-right: 1px solid #cccccc;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: #4cc29a;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #4cc29a;
+  position: absolute;
+  top: 15px;
+  width: 0%;
+  transition: all ease-in-out 300ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+  border-radius: 3px;
+}
+
+img {
+  float: left;
+  width: 180px;
+  position: relative;
+  box-shadow: #666666 4px 0px 10px;
+  border-radius: 50%;
+  margin: 25px 15px 0px 40px;
+}
+
+#wrapper {
+  min-height: 100%;
+}
+
+#main {
+  box-shadow: #aaa8a8 0px 0px 10px;
+  width: 960px;
+  height: 480px;
+  margin: 30px auto;
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  border-radius: 3px;
+  position: relative;
+}
+
+h2 {
+  background-clip: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  background: -webkit-linear-gradient(#4882b8, #4cc29a, #48b873);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 10px 37px;
+  padding: 20px;
+  border-bottom: 2px solid #cccccc;
+}
+
+.about {
+  width: 95%;
+  font-size: 1.3rem;
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+}
+
+footer {
+  color: white;
+  margin-top: -50px;
+  background-color: #666666;
+  border-top: 8px solid#4aaaa5;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
