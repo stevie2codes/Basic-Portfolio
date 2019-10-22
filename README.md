@@ -8,7 +8,7 @@ I enjoyed learning the difference between Position: absolute and Postion: relati
 
 **Also adding in multiple files to be linked together was a new obstacle.** 
 
-**After this assignment I feel to have a much better grasp on the concept of the "Border-Box". 
+**After this assignment I feel to have a much better grasp on the concept of the "Border-Box".** 
 
-**Using padding and margin almost became second nature near the end of this project.
+**Using padding and margin almost became second nature near the end of this project.**
 
