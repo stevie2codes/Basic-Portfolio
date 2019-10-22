@@ -13,3 +13,9 @@ making the connections between parent and child elements**
 
 **Using padding and margin almost became second nature near the end of this project.**
 
+**Thoughtout the projects ive made over 20 commits, Im overcoming the fear of git version control and
+feeling much more comfortable with it**
+
+**Im finding as I work on more projects, I really enjoy the design aspect of the project. Making things pretty
+or adding an animation to hover elements has been really fun.**
+
